@@ -1,0 +1,31 @@
+{"intens": [
+    {"tag":"Ucapan Selamat Datang",
+        "patterns":["Hallo", "Hai", "Tes", "Selamat pagi", "Selamat siang", "Selamat sore", "Selamat malam"],
+        "responses": ["Apa kabar?", "Bagaimana Hari Anda?", "Apakah yang anda perlukan saat ini"],
+        "context_set": ""
+    },
+    {"tag":"Kalimat Aduan",
+        "patterns":["Saya ingin bertanya", "Saya ingin melapor", "Saya kebingungan", "Saya kesulitan",
+                    "Saya memerlukan informasi", "saya mengalami kesulitan"],
+        "responses":["Apa kendala yang anda alami?", "Apakah yang anda cari saat ini", "Adakah hal yang bisa kami bantu?"]
+    },
+    {"tag": "Ucapan Terima kasih",
+        "patterns": ["Terima kasih","Terimakasih", "oke", "Baiklah", "Sangat membantu", 
+            "Terima kasih sarannya","Terima kasih masukkannya", "Terimakasih sarannya","Terimakasih bantuannya"],
+        "responses":["Senang bisa membantu anda", "Sama-sama", "Semoga harimu menyenangkan"]
+    },
+    {"tag":"Jam buka",
+        "patterns":["Jam berapa buka bengkel?", "Buka jam berapa?", "Sampai jam berapa buka?", "Sampai jam berapa buka?"],
+        "responses":["Kami buka jam 9 pagi", "Jam buka kami dari jam 9 pagi sampai 5 sore"],
+    },
+    {"tag":"pembayaran",
+        "patterns": ["Bagaimana metode pembayarannya?", "Cara bayar", "bayar",
+                    "Apakah bisa bayar pakai m-banking?", "Apakah bisa bayar menggunakan e-wallet?"],
+        "responses": ["Pembayaran dilakukan dengan menggunakan cash ditempat"],
+    },
+    {"tag": "Buka Hari ini",
+        "patterns": ["Apakah hari ini buka?", "buka hari ini", "hari ini buka?"],
+        "responses": ["Kami buka setiap hari dari jam 9 pagi sampai jam 5 sore"]
+    }
+    ]
+}
