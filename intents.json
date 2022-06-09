@@ -1,8 +1,7 @@
-{"intens": [
+{"intents": [
     {"tag":"Ucapan Selamat Datang",
-        "patterns":["Hallo", "Hai", "Tes", "Selamat pagi", "Selamat siang", "Selamat sore", "Selamat malam"],
-        "responses": ["Apa kabar?", "Bagaimana Hari Anda?", "Apakah yang anda perlukan saat ini"],
-        "context_set": ""
+        "patterns":["Hallo", "Hai", "Tes", "Selamat pagi", "Selamat siang", "Selamat sore", "Selamat malam", "Halo"],
+        "responses": ["Apa kabar?", "Selamat Datang di Mokel-On"]
     },
     {"tag":"Kalimat Aduan",
         "patterns":["Saya ingin bertanya", "Saya ingin melapor", "Saya kebingungan", "Saya kesulitan",
@@ -16,12 +15,12 @@
     },
     {"tag":"Jam buka",
         "patterns":["Jam berapa buka bengkel?", "Buka jam berapa?", "Sampai jam berapa buka?", "Sampai jam berapa buka?"],
-        "responses":["Kami buka jam 9 pagi", "Jam buka kami dari jam 9 pagi sampai 5 sore"],
+        "responses":["Kami buka jam 9 pagi", "Jam buka kami dari jam 9 pagi sampai 5 sore"]
     },
     {"tag":"pembayaran",
         "patterns": ["Bagaimana metode pembayarannya?", "Cara bayar", "bayar",
                     "Apakah bisa bayar pakai m-banking?", "Apakah bisa bayar menggunakan e-wallet?"],
-        "responses": ["Pembayaran dilakukan dengan menggunakan cash ditempat"],
+        "responses": ["Pembayaran dilakukan dengan menggunakan cash ditempat"]
     },
     {"tag": "Buka Hari ini",
         "patterns": ["Apakah hari ini buka?", "buka hari ini", "hari ini buka?"],
