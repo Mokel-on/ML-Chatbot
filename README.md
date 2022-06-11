@@ -1,11 +1,11 @@
 # Capstone-NLP 
 Create Chatbot model using NLP & Tensorflow
 
-Tools:
+Tools & Library:
   1. Colab notebook
   2. Tensorflow library
-  3. TFLearn
-  4. NLP
+  3. TFLite
+  4. NLPTK
 
 
 # Main Content
@@ -15,6 +15,8 @@ Tools:
   4. Train
   5. Save the Model
   6. Try Model
+  7. Convert into TFLite format
+  8. Deploy on App
 
 Next task: 
   # Implementing Model in app
